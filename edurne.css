@@ -280,6 +280,51 @@ body.res-nightmode #stylesheet_contents {
 
 /* MISC STYLING */
 
+/* No Participation CSS credit to /r/noparticipation, slightly modified */
+body:lang(np):not(.subscriber) .arrow { 
+    visibility: hidden !important;
+}
+
+body:lang(np):not(.subscriber) .usertext-edit,
+body:lang(np):not(.subscriber) .sidebox.submit,
+body:lang(np):not(.subscriber) .commentingAs,
+body:lang(np):not(.subscriber) .markdownEditor, 
+body:lang(np):not(.subscriber) .report-button,
+body:lang(np):not(.subscriber) a[onclick*="return reply(this)"],
+body:lang(np):not(.subscriber) .subButtons,
+body:lang(np):not(.subscriber) .helplink,
+body:lang(np):not(.subscriber) .titlebox .fancy-toggle-button.toggle > .option.add {
+    display: none !important;
+}
+
+body:lang(np):not(.subscriber) > .content:before {
+    content: "You have been linked to a read-only version of this subreddit. Please respect the community by not voting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 2px;
+    border: 1px solid orange;
+    font-size: small;
+    text-align: center;
+}
+
+body:lang(np):not(.subscriber) .entry.likes:not(.reddit-entry):before,
+body:lang(np):not(.subscriber) .entry.dislikes:not(.reddit-entry):before {
+    content: "Please do not vote or comment when you come from external subreddits.";
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Wiki protection */
+body.wiki-page:lang(np):not(.subscriber) span.pageactions a.wikiaction-edit:not(.wikiaction-current),
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform label[for='reason'],
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input#wiki_revision_reason,
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input[type='submit'] {
+    display: none !important;
+}
+
 /* tables */
 .md table { border: 1px solid #ccc; font-family: Arial, Helvetica, Sans-serif; margin: 10px 0px; }
 body.res-nightmode .md table { border-color: #666; }
@@ -327,6 +372,7 @@ body.res-nightmode .md ul, body.res-nightmode .md ol { background-color: #444; }
 .md ul li:nth-child(odd), .md ol li:nth-child(odd) { background-color: #f6f6f6; }
 body.res-nightmode .md ul li:nth-child(odd), body.res-nightmode .md ol li:nth-child(odd) { background-color: #222; }
 .md ol { counter-reset: inc 0; }
+ol li p, ul li p { display: inline; }
 
 .md ol li:before {
     counter-increment: inc 1;
