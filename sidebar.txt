@@ -1,10 +1,10 @@
-#v5.3
+#v5.7
 
 ##### [](#h5-yellow)
 > # [What is it?](#icon-lightbulb)
 > This is a CSS theme to style subreddits. It was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
 
-> ---
+> **************
 
 > It's for people who want a clean, custom CSS theme without having to play too much with code.
 
@@ -22,15 +22,15 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 ####[](#h4-green)
 > ##[Currently used in:](#icon-check)
 
-> /r/AskModerators, /r/InternetAMA, /r/techsupport, /r/redditores, /r/patientgamers, /r/bans, /r/spain, /r/es, /r/FreewareIndex, /r/vaultshow, /r/DeltaMinecraft, /r/weather
+> /r/IAmA, /r/Motorcycles, /r/Bitcoin, /r/AskModerators, /r/nintendo, /r/InternetAMA, /r/nexus4, /r/techsupport, /r/redditores, /r/patientgamers, /r/bans, /r/spain, /r/es, /r/albany, /r/buildapcforme, /r/ChristianApologetics, /r/Makemeagif, /r/DownvoteGifs, /r/humanism, /r/weather, /r/domes, /r/greenhouses, /r/email, /r/JapaneseGameShows/, /r/FreewareIndex, /r/blackladies, /r/customcovers, /r/petloss, /r/buildapcforme, /r/vaultshow, /r/Scandal, /r/upvotegifs, /r/matt01ss, /r/DeltaMinecraft, /r/mindashq, /r/SportsFashion, /r/bharat, /r/songoftheday, /r/AirForce, /r/techsupportgore
 
----
+*******************
+
+> ##Now using NoParticipation!
+
+> This theme now supports np.reddit.com (/r/noparticipation) to help subreddits keep their content safer when linked to from an external source. Nothing is required to enable this; if a subreddit links to your post using np.reddit.com/[link] the CSS will automatically work.
 
 [Get the Theme from Github!](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit/#btn)
-
----
-
----
 
 # How to use the sidebar code:
 
@@ -38,11 +38,11 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 > Any text that's continuously blockquoted shares the same box.
 
----
+*****************************
 
 > Separate blockquote groups with a horizontal line to make them different boxes.
 
----
+*****************************
 
 ###### [](#h6-red)
 > You can change a box's color by placing a specific empty header type right before making the blockquote.
@@ -53,7 +53,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box.`
 
----
+********************************
 
 ##### [](#h5-yellow)
 > To make a **yellow** box, use an empty **H5** element as we did before:
@@ -62,7 +62,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box`
 
----
+********************************
 
 #### [](#h4-green)
 > To make a **green** box, use an empty **H4** element as we did before:
@@ -72,7 +72,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 >`> This is a box`
 
 
----
+*******************************
 
 > #This is a title
 > This box starts with an H1 element inside of it that serves as its header. Notice the indentation of all text contained in it.  
@@ -81,7 +81,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box`
 
----
+**************************
 
 ###### [](#h6-red)
 > #[Title with an icon](#icon-exclamation)
@@ -106,5 +106,8 @@ Normal text can be added after a separating horizontal line, and it will appear 
 > > ##[Contribute!](#icon-smile)
 > > * If you find any bugs or problems with this theme, be sure to ask here.
 > > * I'll soon set up an integrated Wiki page to make setting it all up easier to understand.
+
+
+[](#/RES_SR_Config/NightModeCompatible)
 
 You can find the exact code I used to make this sidebar [in Github](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit). 
